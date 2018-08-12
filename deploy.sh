@@ -45,9 +45,9 @@ rm -rf $TOMCAT_APP_PATH/PiplineAngular
 
 #复制新的工程
 #cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
-cp $PROJ_PATH/piplineAngular2/dist $WORK_PATH/
+cp $PROJ_PATH/piplineAngular2/dist $TOMCAT_APP_PATH/
 
-cd $WORK_PATH/
+cd $TOMCAT_APP_PATH/
 #mv order.war ROOT.war
 mv dist PiplineAngular
 
